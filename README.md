@@ -7,7 +7,7 @@ Uses the .NET CLI `dotnet restore` [command](https://learn.microsoft.com/en-us/d
 To use this action in your GitHub repository, you can follow these steps:
 
 ```yaml
-uses: maurosoft1973/dotnet-restore@v1
+uses: maurosoft1973/gha-dotnet-restore@v1
 ```
 
 ### Inputs
@@ -31,7 +31,7 @@ with:
 ```yaml
 outputs:
   # The restore cache key that can be used by other actions.
-  restoreCacheKey: dotnet-restore-sha256
+  restoreCacheKey: dotnet-restore-3534563rfsdfgdt4t6et
 ```
 
 ## Examples
@@ -41,7 +41,7 @@ outputs:
 ```yaml
 steps:
   - name: Restore Dependencies
-    uses: maurosoft1973/dotnet-restore@v1
+    uses: maurosoft1973/gha-dotnet-restore@v1
 ```
 
 ## Contributing to .NET Restore
